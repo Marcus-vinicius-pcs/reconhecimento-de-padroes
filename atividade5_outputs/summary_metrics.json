@@ -1,0 +1,255 @@
+[
+  {
+    "model_key": "all_features",
+    "model_label": "All features",
+    "classifier": "GaussianNB",
+    "selected_params_full_data": {
+      "nb__var_smoothing": 1e-06
+    },
+    "selected_f1_full_data": 0.5822257829726041,
+    "outer_splits": 10,
+    "inner_splits": 10,
+    "accuracy_mean": 0.6873513735137352,
+    "accuracy_std": 0.00778854922673333,
+    "accuracy_ci95": 0.0048273928240648205,
+    "f1_mean": 0.5822257829726041,
+    "f1_std": 0.006757502527933332,
+    "f1_ci95": 0.004188343459392525,
+    "recall_mean": 0.9099859433508236,
+    "recall_std": 0.005550558651244059,
+    "recall_ci95": 0.00344027189435955,
+    "precision_mean": 0.42807652730008733,
+    "precision_std": 0.006762242402892993,
+    "precision_ci95": 0.0041912812643291235,
+    "outer_best_params": [
+      {
+        "nb__var_smoothing": 1e-06
+      },
+      {
+        "nb__var_smoothing": 1e-06
+      },
+      {
+        "nb__var_smoothing": 1e-06
+      },
+      {
+        "nb__var_smoothing": 1e-06
+      },
+      {
+        "nb__var_smoothing": 1e-06
+      },
+      {
+        "nb__var_smoothing": 1e-06
+      },
+      {
+        "nb__var_smoothing": 1e-06
+      },
+      {
+        "nb__var_smoothing": 1e-06
+      },
+      {
+        "nb__var_smoothing": 1e-06
+      },
+      {
+        "nb__var_smoothing": 1e-06
+      }
+    ]
+  },
+  {
+    "model_key": "pca",
+    "model_label": "PCA",
+    "classifier": "GaussianNB",
+    "selected_params_full_data": {
+      "nb__var_smoothing": 1e-09,
+      "pca__n_components": 20
+    },
+    "selected_f1_full_data": 0.5932974780549303,
+    "outer_splits": 10,
+    "inner_splits": 10,
+    "accuracy_mean": 0.8158466584665847,
+    "accuracy_std": 0.005378933293674173,
+    "accuracy_ci95": 0.0033338973956638642,
+    "f1_mean": 0.5932974780549303,
+    "f1_std": 0.013796485595550885,
+    "f1_ci95": 0.0085511503647785,
+    "recall_mean": 0.5613186105339766,
+    "recall_std": 0.016270174262859715,
+    "recall_ci95": 0.01008435848530361,
+    "precision_mean": 0.6292291648926853,
+    "precision_std": 0.011916105405240426,
+    "precision_ci95": 0.00738567864816388,
+    "outer_best_params": [
+      {
+        "nb__var_smoothing": 1e-09,
+        "pca__n_components": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "pca__n_components": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "pca__n_components": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "pca__n_components": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "pca__n_components": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "pca__n_components": 20
+      },
+      {
+        "nb__var_smoothing": 1e-06,
+        "pca__n_components": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "pca__n_components": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "pca__n_components": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "pca__n_components": 20
+      }
+    ]
+  },
+  {
+    "model_key": "select_k_best",
+    "model_label": "SelectKBest",
+    "classifier": "GaussianNB",
+    "selected_params_full_data": {
+      "nb__var_smoothing": 1e-09,
+      "selector__k": 20
+    },
+    "selected_f1_full_data": 0.6281527413356612,
+    "outer_splits": 10,
+    "inner_splits": 10,
+    "accuracy_mean": 0.7666461664616646,
+    "accuracy_std": 0.006239797546378983,
+    "accuracy_ci95": 0.0038674665874379936,
+    "f1_mean": 0.6281527413356612,
+    "f1_std": 0.007392024428437141,
+    "f1_ci95": 0.004581624207839278,
+    "recall_mean": 0.8233122483595686,
+    "recall_std": 0.008366131993516324,
+    "recall_ci95": 0.005185382331802857,
+    "precision_mean": 0.5078309658973325,
+    "precision_std": 0.008144624364566911,
+    "precision_ci95": 0.005048090480992472,
+    "outer_best_params": [
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      }
+    ]
+  },
+  {
+    "model_key": "select_k_best_under",
+    "model_label": "SelectKBest + RandomUnderSampler",
+    "classifier": "GaussianNB",
+    "selected_params_full_data": {
+      "nb__var_smoothing": 1e-09,
+      "selector__k": 20
+    },
+    "selected_f1_full_data": 0.6324092573818247,
+    "outer_splits": 10,
+    "inner_splits": 10,
+    "accuracy_mean": 0.7658876588765887,
+    "accuracy_std": 0.006405197843624708,
+    "accuracy_ci95": 0.0039699827537712055,
+    "f1_mean": 0.6324092573818247,
+    "f1_std": 0.007513867156087894,
+    "f1_ci95": 0.0046571431128372524,
+    "recall_mean": 0.8412121732342618,
+    "recall_std": 0.008848558112531922,
+    "recall_ci95": 0.00548439313821643,
+    "precision_mean": 0.506696296299721,
+    "precision_std": 0.008170768121447711,
+    "precision_ci95": 0.00506429454938653,
+    "outer_best_params": [
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      },
+      {
+        "nb__var_smoothing": 1e-09,
+        "selector__k": 20
+      }
+    ]
+  }
+]

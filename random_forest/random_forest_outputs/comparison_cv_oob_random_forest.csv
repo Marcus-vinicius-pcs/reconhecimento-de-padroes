@@ -1,0 +1,3 @@
+method,selected_params,accuracy,f1,recall,precision
+Nested CV,seleção por GridSearchCV interno,0.8374626369976751,0.7037133971304447,0.7784222379754279,0.6423084004397192
+OOB,"{""rf__max_features"": ""9"", ""rf__n_estimators"": ""500"", ""rf__min_samples_leaf"": ""2""}",0.8382375733421897,0.7090865652624034,0.7952130034830758,0.6397930588488898

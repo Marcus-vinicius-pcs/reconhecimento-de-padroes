@@ -1,0 +1,13 @@
+# notebook.ipynb
+[0] # Reconhecimento de Padr?es - EDA
+[1] ## Obten??o dos dados
+[4] Dataset escolhido: https://archive.ics.uci.edu/dataset/2/adult
+[6] ## Limpeza dos dados
+[11] ## EDA (pr?-Feature Engineering)
+[17] ## Feature Engineering
+[23] **Categorias de marital-status**
+
+- `Married-AF-spouse`: casado com c?njuge nas For?as Armadas dos EUA (AF = Armed Forces).
+- `Married-civ-spouse`: casado com c?njuge civil (n?o militar).
+- `Married-spouse-absent`: casado(a), mas o c?njuge est? ausente (por separa??o de fato, trabalho, etc.).
+[28] ## EDA (p?s-Feature Engineering)
